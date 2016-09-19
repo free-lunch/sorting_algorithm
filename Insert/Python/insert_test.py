@@ -2,7 +2,7 @@ import unittest
 
 from insert import insert_sort
 
-class BubbleUnittest(unittest.TestCase):
+class InsertUnittest(unittest.TestCase):
     def checkValid(self, items, reverse=False):
         n = len(items)
         for i in xrange(0,n-1):
