@@ -6,7 +6,6 @@ def compare_item(i, j, reverse=False):
 
 
 def heap_sort(items, reverse=False):
-    print items
     heapify(items, reverse)
 
     index = len(items)-1
